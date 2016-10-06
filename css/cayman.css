@@ -1,6 +1,16 @@
 * {
   box-sizing: border-box; }
 
+/*switches off the video entirely on smaller screens*/
+@media screen and (max-device-width: 800px) {
+    html {
+         background: url(cloud.jpg) #000 no-repeat center center fixed;
+    }
+    #bgvid {
+        display: none;
+    }
+}
+
 body {
   padding: 0;
   margin: 0;
