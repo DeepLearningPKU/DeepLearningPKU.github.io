@@ -10,7 +10,7 @@ function scrollMaster () {
   //}
   //scrollMe()
   // document.write("<b>CURRENT TIME:</b>"+msg);
-  document.write(msg);
+  document.write("Today:"+msg);
 }
 
 function scrollMe(){
