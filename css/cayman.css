@@ -246,3 +246,84 @@ a {
 
 .site-footer-credits {
   color: #819198; }
+
+
+/*Convolutional Neural Network*/
+
+#teaser {
+  height: 410px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 3px;
+  padding-right: 3px;
+  /*background-color: #8C1515;*/
+  background-color: #155799;
+  background-image: linear-gradient(120deg, #159957,#155798 );;
+  position: relative;
+  overflow: hidden;
+  color: white;
+  font-size: 16px;
+  text-align: center;
+}
+.sec {
+  margin-bottom: 10px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.tt {
+  color: #060;
+  display: inline-block;
+}
+
+#inputlayer {
+  width: 65px;
+}
+.layer {
+  width: 35px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+.actmap {
+  display: block;
+  border: 2px solid #FFF;
+}
+#convnetvis {
+  text-align: center;
+}
+#probsdiv {
+  
+}
+.pp {
+  color: white;
+  text-align: left;
+  padding: 5px;
+  height: 32px;
+  margin: 2px;
+  background-color: rgb(85,187,85);
+  overflow: visible !important;
+}
+
+#convask {
+  position: absolute;
+  top: 360px;
+  right: 16px;
+  color: white;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+#explain {
+  display: none;
+  background-color: #FF9;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+}
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto
+}
